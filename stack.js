@@ -1,3 +1,7 @@
+/* --------------------------------------------------- */
+/* stack */
+/* --------------------------------------------------- */
+
 class _Node {
   constructor(data, next) {
     this.data = data;
@@ -36,3 +40,4 @@ class Stack {
     // time complexity of removing an item from a stack is constant, O(1)
   }
 }
+
